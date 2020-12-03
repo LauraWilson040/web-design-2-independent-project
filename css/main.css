@@ -1,11 +1,38 @@
 html {
   box-sizing: border-box;
-  background-color: #000;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
+  margin: 1.5rem;
 }
 
 *,
 *::before,
 *::after {
   box-sizing: inherit;
+}
+
+h1 {
+  text-align: center;
+  color: #7a0060;
+}
+
+h1, h2, h3 {
+  font-family: "Sansita Swashed", cursive;
+}
+
+nav ul {
+  display: inline;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  background-color: #7a0060;
+  color: #fff;
 }
