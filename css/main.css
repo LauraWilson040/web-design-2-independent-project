@@ -36,7 +36,21 @@ img {
   width: 50%;
 }
 
+.hover-box {
+  align-items: center;
+}
+
 footer {
   background-color: #7a0060;
   color: #fff;
+
+  padding-top: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 1rem;
+}
+
+.social {
+  list-style-type: none;
+  width: 20%;
 }
