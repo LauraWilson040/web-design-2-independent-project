@@ -10,6 +10,19 @@ html {
   box-sizing: inherit;
 }
 
+.logo {
+  width: 20%;
+}
+
+h1 {
+  position: absolute;
+}
+
+img {
+  position: relative;
+  width: 100%;
+}
+
 h1, h2 {
   text-align: center;
   color: #7a0060;
@@ -19,20 +32,31 @@ h1, h2, h3 {
   font-family: "Sansita Swashed", cursive;
 }
 
-nav ul {
+nav {
+  text-align: center;
   display: inline;
 }
 
-nav li {
+ul li {
   list-style-type: none;
+}
+
+nav a {
+  text-decoration: none;
+  text-align: center;
+  color: #000;
+}
+
+nav a:hover {
+  background-color: #7a0060;
+  border-radius: 5px;
+  padding: .5em;
+  font-weight: bold;
+  color: #fff;
 }
 
 a {
   text-decoration: none;
-}
-
-img {
-  width: 100%;
 }
 
 section {
