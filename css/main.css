@@ -11,16 +11,24 @@ html {
 }
 
 .logo {
-  width: 20%;
-}
-
-h1 {
-  position: absolute;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+  width: 25%;
 }
 
 img {
   position: relative;
+  text-align: left;
   width: 100%;
+}
+
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:  translate(-50%, -50%);
 }
 
 h1, h2 {
@@ -37,10 +45,6 @@ nav {
   display: inline;
 }
 
-ul li {
-  list-style-type: none;
-}
-
 nav a {
   text-decoration: none;
   text-align: center;
@@ -53,6 +57,14 @@ nav a:hover {
   padding: .5em;
   font-weight: bold;
   color: #fff;
+}
+
+ul {
+  padding-left: 0;
+}
+
+ul li {
+  list-style-type: none;
 }
 
 a {
