@@ -9,9 +9,15 @@
 </head>
 <body>
 
-  <header role="banner">
+  <ul class="skip-links">
+    <li><a href="#nav">Skip to navigation</a></li>
+    <li><a href="#main">Skip to the main content</a></li>
+    <li><a href="#section">Skip to the section</a></li>
+  </ul>
+
+  <header role="banner" id="banner" tabindex="0">
     <img class="logo" src="images/logo.png" alt="">
-    <nav role="navigation">
+    <nav role="navigation" id="nav" tabindex="0">
       <ul>
         <li> <a class="home" href="index.html">Home</a></li>
         <li> <a class="pastwork" href="pastwork.html">Past Work</a></li>
@@ -22,7 +28,7 @@
     <img src="images/homebanner.jpg" alt="">
   </header>
 
-  <section role="main">
+  <section role="main" id="main" tabindex="0">
     <h2>Past Work</h2>
     <a class="hover-box">
       <img src="images/computergraphics.jpg" alt="">
@@ -38,7 +44,7 @@
     </a>
   </section>
 
-  <footer role="contentinfo">
+  <footer role="contentinfo" id="contentinfo" tabindex="0">>
     <nav>
       <ul>
         <li><a class="home" href="index.html">Home</a></li>

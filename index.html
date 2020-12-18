@@ -4,14 +4,22 @@
   <meta charset="utf-8">
   <title>Home</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="icon" type="image/png" href="favicon-196.png">
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  <header role="banner">
+  <ul class="skip-links">
+    <li><a href="#nav">Skip to navigation</a></li>
+    <li><a href="#main">Skip to the main content</a></li>
+    <li><a href="#section">Skip to the section</a></li>
+  </ul>
+
+  <header role="banner" id="banner" tabindex="0">
     <img class="logo" src="images/logo.png" alt="">
-    <nav role="navigation">
+    <nav role="navigation" id="nav" tabindex="0">
       <ul>
         <li><a class="home" href="index.html">Home</a></li>
         <li><a class="pastwork" href="pastwork.html">Past Work</a></li>
@@ -22,21 +30,24 @@
     <h1>Home</h1>
   </header>
 
-  <main role="main">
+  <main role="main" id="main" tabindex="0">
     <h2>About</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Condimentum lacinia quis vel eros donec ac odio tempor. Volutpat maecenas volutpat blandit aliquam etiam. Fames ac turpis egestas integer eget aliquet nibh praesent tristique. Sit amet purus gravida quis blandit turpis cursus in hac. Integer enim neque volutpat ac tincidunt vitae.</p>
   </main>
 
-  <section>
+  <section role="complementary" id="complementary" tabindex="0">
     <h2>Past Work</h2>
     <a class="hover-box" href="pastwork.html">
       <img src="images/computergraphics.jpg" alt="">
+      <h3>Computer Graphics</h3>
     </a>
     <a class="hover-box" href="pastwork.html">
       <img src="images/graphicdesign.png" alt="">
+      <h3>Graphic Design</h3>
     </a>
     <a class="hover-box" href="pastwork.html">
       <img src="images/typography1.jpg" alt="">
+      <h3>Typography</h3>
     </a>
   </section>
 
@@ -46,7 +57,7 @@
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Condimentum lacinia quis vel eros donec ac odio tempor. Volutpat maecenas volutpat blandit aliquam etiam. Fames ac turpis egestas integer eget aliquet nibh praesent tristique. Sit amet purus gravida quis blandit turpis cursus in hac. Integer enim neque volutpat ac tincidunt vitae.</p>
   </aside>
 
-  <footer role="contentinfo">
+  <footer role="contentinfo" id="contentinfo" tabindex="0">
     <nav>
       <ul>
         <li><a class="home" href="index.html">Home</a></li>
