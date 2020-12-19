@@ -10,7 +10,13 @@
 </head>
 <body>
 
-  <header role="banner">
+  <ul class="skip-links">
+    <li><a href="#nav">Skip to navigation</a></li>
+    <li><a href="#main">Skip to the main content</a></li>
+    <li><a href="#section">Skip to the section</a></li>
+  </ul>
+
+  <header role="banner" id="banner" tabindex="0">
     <img class="logo" src="favicon-196.png" alt="">
     <nav role="navigation">
       <ul>
@@ -23,12 +29,12 @@
     <img src="images/pastwork.jpg" alt="">
   </header>
 
-  <main role="main">
+  <main role="main" id="main" tabindex="0">
     <h2>About Me</h2>
     <p>My name is Laura and I am a second-year graphic design student. I specialize in digital and layout design. I am considering going into branding.</p>
   </main>
 
-  <section>
+  <section role="complementary" id="complementary" tabindex="0">
     <h2>Contact Information</h2>
     <img class="logo" src="images/iconmonstr-phone-9.svg" alt="">
     <p>(613) 727-4723</p>
@@ -38,7 +44,7 @@
     <p>1385 Woodroffe Ave, Nepean, ON K2G 1V8</p>
   </section>
 
-  <footer role="contentinfo">
+  <footer role="contentinfo" id="contentinfo" tabindex="0">
     <nav>
       <ul>
         <li><a class="home" href="index.html">Home</a></li>
