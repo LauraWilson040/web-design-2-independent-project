@@ -68,6 +68,8 @@ ul li {
 }
 
 a {
+  font-family: Petrona, serif;
+  font-weight: bold;
   text-decoration: none;
 }
 
@@ -76,7 +78,7 @@ section {
 }
 
 p {
-  font-family: "Petrona", serif;
+  font-family: Petrona, serif;
   padding: .5rem 1rem;
 }
 
